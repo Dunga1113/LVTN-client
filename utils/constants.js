@@ -17,10 +17,10 @@ import VideocamIcon from "@mui/icons-material/Videocam";
 import ConstructionIcon from '@mui/icons-material/Construction';
 
 export const GET_PROVINCE_API = "https://provinces.open-api.vn/api/?depth=1";
-export const CHAT_HOST = "https://lvtn-server-6z5xc0y1p-dunga1113.vercel.app";
+export const CHAT_HOST = "https://lvtnserver-production.up.railway.app";
 export const USER_INFO_KEY = "user_info";
 export const USER_CART_INFO = "user_prd_card";
-export const API_SERVER_URL = "https://lvtn-server-6z5xc0y1p-dunga1113.vercel.app/api";
+export const API_SERVER_URL = "https://lvtnserver-production.up.railway.app/api";
 export const ADMIN_ROLE = [
   {
     label: "Dashboard",
