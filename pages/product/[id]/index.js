@@ -53,7 +53,7 @@ export default function ProductDetail() {
                     src={productDetail?.product_image}
                     layout="responsive"
                     width={30}
-                    height={30}
+                    height={22}
                     placeholder="blur"
                     blurDataURL={BLUR_BASE64}
                   />

@@ -29,14 +29,14 @@ export default function ProductItem({
       <div
         className="position-relative bg-light overflow-hidden"
         onClick={() => router?.push(`/product/${product_id}`)}
-        style={{width: '100%', height: '300px'}}
+        style={{width: '100%', height: '195px'}}
       >
         <Image
           src={product_image}
           alt={product_name}
           layout="responsive"
           width={50}
-          height={50}
+          height={38}
           placeholder="blur"
           blurDataURL={BLUR_BASE64}
         />
