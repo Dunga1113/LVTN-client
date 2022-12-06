@@ -87,7 +87,7 @@ export default function PostPage() {
                     style={{
                       position: "relative",
                       width: "100%",
-                      height: "250px",
+                      height: "260px",
                     }}
                   >
                     <Image

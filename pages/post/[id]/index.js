@@ -139,7 +139,7 @@ export default function PostDetailPage() {
                 <h1 className="mb-3">{postDetail?.blog_title}</h1>
               </div>
               <div
-                style={{ width: "95%", height: "400px", position: "relative" }}
+                style={{ width: "100%", height: "550px", position: "relative" }}
               >
                 <Image
                   src={postDetail?.blog_image}
