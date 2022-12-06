@@ -133,11 +133,7 @@ export default function PersonalPage(props) {
                   variant="filled"
                   style={{ marginTop: 11, textAlign: "left", width: "48%" }}
                   value={userInfo?.first_name}
-                  sx={{
-                    ".css-10botns-MuiInputBase-input-MuiFilledInput-input": {
-                      marginTop: "12px",
-                    },
-                  }}
+                  
                   onChange={(event) =>
                     setUserInfo({
                       ...userInfo,
