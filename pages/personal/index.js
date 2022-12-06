@@ -135,7 +135,7 @@ export default function PersonalPage(props) {
                   value={userInfo?.first_name}
                   sx={{
                     ".css-10botns-MuiInputBase-input-MuiFilledInput-input": {
-                      marginTop: "12px",
+                      marginTop: "120px",
                     },
                   }}
                   onChange={(event) =>
