@@ -124,7 +124,7 @@ export default function PersonalPage(props) {
                   justifyContent: "space-between",
                   alignItems: "center",
                   width: "100%",
-                  marginTop: "10px",
+                  marginTop: "1px",
                 }}
               >
                 <TextField
@@ -149,7 +149,7 @@ export default function PersonalPage(props) {
                   label="Tên"
                   id="post-title"
                   variant="filled"
-                  
+                  style={{ marginTop: 11, textAlign: "left", width: "48%" }}
                   value={userInfo?.last_name}
                   sx={{
                     ".css-10botns-MuiInputBase-input-MuiFilledInput-input": {
