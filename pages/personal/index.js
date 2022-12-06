@@ -124,7 +124,7 @@ export default function PersonalPage(props) {
                   justifyContent: "space-between",
                   alignItems: "center",
                   width: "100%",
-                  marginTop: "1px",
+                  marginTop: "10px",
                 }}
               >
                 <TextField
