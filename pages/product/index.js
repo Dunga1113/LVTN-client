@@ -14,7 +14,7 @@ import { useRouter } from "next/router";
 
 const PRODUCT_IN_PAGE = 12;
 const MIN_PRICE = 1000;
-const MAX_PRICE = 10000000;
+const MAX_PRICE = 1000000;
 
 const PrettoSlider = styled(Slider)({
   color: "#52af77",
