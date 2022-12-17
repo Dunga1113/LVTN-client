@@ -230,7 +230,7 @@ export default function Product() {
                   <form onSubmit={(event) => event.preventDefault()}>
                     <input
                       type="search"
-                      plaseholder="search"
+                      placeholder="Tìm kiếm"
                       onChange={(event) => {
                         searchText.current = event.target.value;
                         debounceFn(event?.target?.value);
